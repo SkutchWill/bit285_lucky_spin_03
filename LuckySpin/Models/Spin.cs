@@ -7,8 +7,11 @@ namespace LuckySpin.Models
 {
     public class Spin
     {
-        public int luck;
-        public int A, B, C;
-        public string ImgDisplay;
+        public int luck { get; set; }
+        public int A { get; set; }
+        public int B { get; set; }
+        public int C { get; set; }
+
+        public string ImgDisplay { get; set; }
     }
 }
